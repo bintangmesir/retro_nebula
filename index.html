@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/src/vendor/bootstrap/bootstrap.min.css" />
+    <title>Sounds of Nebula</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- section header -->
+    <header class="mx-3 border-bottom border-2 border-dark">
+      <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand me-auto" href="#">
+            <img alt="logo.png" class="img-brand align-text-top" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex mx-auto my-md-0 my-2" role="search">
+              <i class="fa-solid fa-magnifying-glass icon-css"></i>
+              <input
+                class="form-control search me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row gap-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-instagram fa-lg"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-youtube fa-lg"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end section header -->
+    <!-- section main -->
+    <main>
+      <!-- section video -->
+      <section class="video mx-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 border-bottom border-2 border-dark">
+              <div class="marquee py-1">
+                <marquee class="fw-bold text-uppercase"
+                  >Now Playing
+                  <span class="fw-medium">
+                    Lorem ipsum dolor sit amet.
+                  </span></marquee
+                >
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="p-md-3 pt-md-4 pt-3 px-1">
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"
+                    title="YouTube video"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section video -->
+      <!-- section schedule -->
+      <section class="schedule m-3 border-top border-bottom border-2 border-dark">
+        <div class="container-fluid py-4">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          >
+            <div
+              class="title-performance align-self-start px-lg-5 px-md-3 px-2 py-3"
+            >
+              <h2
+                class="fw-bolder ps-lg-4 text-uppercase text-letter-spacing-xs my-0 font-weight-bold"
+              >
+                <i class="fa-solid fa-circle-play pe-md-3 pe-2"></i>list
+                Performance
+              </h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-12" id="Friday, Nov 13th">
+                <div class="p-lg-4 p-md-3 p-2">
+                  <h2 class="mt-0 mb-3 text-dark op-8 fw-bold">Today</h2>
+                  <ul class="list-timeline list-timeline-primary">
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">09:00 - 10:00</span> -
+                        Registration
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item show p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-2"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span
+                          class="fw-bold op-8 infinite animated flash"
+                          data-animate="flash"
+                          data-animate-infinite="1"
+                          data-animate-duration="3.5"
+                          style="animation-duration: 3.5s"
+                          >Now</span
+                        >
+                        - Vitaly Friedmann
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8 show"
+                        id="day-1-item-2"
+                      >
+                        Talk: Wireframing
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">12:00 - 13:00</span> -
+                        Lunch Break
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-4"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">13:00 - 15:00</span> -
+                        Anthony Jonas
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8"
+                        id="day-1-item-4"
+                      >
+                        Talk: OpenData /
+                        <span class="text-primary">Room 31</span>
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">15:00 - 16:00</span> -
+                        Coffee Break
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-6"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">16:00 - 18:00</span> -
+                        Jesscia Lawrence
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8"
+                        id="day-1-item-6"
+                      >
+                        Talk: Ninja coding /
+                        <span class="text-primary">Room 31</span>
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">18:00 - 23:00</span> -
+                        After conference
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12" id="Saturday, Nov 14th">
+                <div class="p-lg-4 p-md-3 p-2">
+                  <h4 class="mt-0 mb-3 text-dark op-8 fw-bold">
+                    Friday, Nov 13th
+                  </h4>
+                  <ul class="list-timeline list-timeline-primary">
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">09:00 - 10:00</span> -
+                        Registration
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item show p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-2"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span
+                          class="fw-bold op-8 infinite animated flash"
+                          data-animate="flash"
+                          data-animate-infinite="1"
+                          data-animate-duration="3.5"
+                          style="animation-duration: 3.5s"
+                          >Now</span
+                        >
+                        - Vitaly Friedmann
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8 show"
+                        id="day-1-item-2"
+                      >
+                        Talk: Wireframing
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">12:00 - 13:00</span> -
+                        Lunch Break
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-4"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">13:00 - 15:00</span> -
+                        Anthony Jonas
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8"
+                        id="day-1-item-4"
+                      >
+                        Talk: OpenData /
+                        <span class="text-primary">Room 31</span>
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">15:00 - 16:00</span> -
+                        Coffee Break
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-6"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">16:00 - 18:00</span> -
+                        Jesscia Lawrence
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8"
+                        id="day-1-item-6"
+                      >
+                        Talk: Ninja coding /
+                        <span class="text-primary">Room 31</span>
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">18:00 - 23:00</span> -
+                        After conference
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12" id="Sunday, Nov 15th">
+                <div class="p-lg-4 p-md-3 p-2">
+                  <h4 class="mt-0 mb-3 text-dark op-8 fw-bold">
+                    Friday, Nov 13th
+                  </h4>
+                  <ul class="list-timeline list-timeline-primary">
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">09:00 - 10:00</span> -
+                        Registration
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item show p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-2"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span
+                          class="fw-bold op-8 infinite animated flash"
+                          data-animate="flash"
+                          data-animate-infinite="1"
+                          data-animate-duration="3.5"
+                          style="animation-duration: 3.5s"
+                          >Now</span
+                        >
+                        - Vitaly Friedmann
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8 show"
+                        id="day-1-item-2"
+                      >
+                        Talk: Wireframing
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">12:00 - 13:00</span> -
+                        Lunch Break
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-4"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">13:00 - 15:00</span> -
+                        Anthony Jonas
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8"
+                        id="day-1-item-4"
+                      >
+                        Talk: OpenData /
+                        <span class="text-primary">Room 31</span>
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">15:00 - 16:00</span> -
+                        Coffee Break
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-6"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">16:00 - 18:00</span> -
+                        Jesscia Lawrence
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8"
+                        id="day-1-item-6"
+                      >
+                        Talk: Ninja coding /
+                        <span class="text-primary">Room 31</span>
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">18:00 - 23:00</span> -
+                        After conference
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12" id="Sunday, Nov 15th">
+                <div class="p-lg-4 p-md-3 p-2">
+                  <h4 class="mt-0 mb-3 text-dark op-8 fw-bold">
+                    Friday, Nov 13th
+                  </h4>
+                  <ul class="list-timeline list-timeline-primary">
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">09:00 - 10:00</span> -
+                        Registration
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item show p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-2"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span
+                          class="fw-bold op-8 infinite animated flash"
+                          data-animate="flash"
+                          data-animate-infinite="1"
+                          data-animate-duration="3.5"
+                          style="animation-duration: 3.5s"
+                          >Now</span
+                        >
+                        - Vitaly Friedmann
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8 show"
+                        id="day-1-item-2"
+                      >
+                        Talk: Wireframing
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">12:00 - 13:00</span> -
+                        Lunch Break
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-4"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">13:00 - 15:00</span> -
+                        Anthony Jonas
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8"
+                        id="day-1-item-4"
+                      >
+                        Talk: OpenData /
+                        <span class="text-primary">Room 31</span>
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">15:00 - 16:00</span> -
+                        Coffee Break
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                      data-toggle="collapse"
+                      data-target="#day-1-item-6"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">16:00 - 18:00</span> -
+                        Jesscia Lawrence
+                      </p>
+                      <p
+                        class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8"
+                        id="day-1-item-6"
+                      >
+                        Talk: Ninja coding /
+                        <span class="text-primary">Room 31</span>
+                      </p>
+                    </li>
+                    <li
+                      class="list-timeline-item p-0 pb-3 d-flex flex-wrap flex-column"
+                    >
+                      <p class="my-0 text-dark flex-fw text-sm text-uppercase">
+                        <span class="text-inverse op-8">18:00 - 23:00</span> -
+                        After conference
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section schedule -->
+      <!-- section contents -->
+      <section class="contents m-3 border-2 border-dark">
+        <div class="container-fluid">
+          <div class="row pt-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-12">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="/src/img/assets/background.jpg"
+                    class="card-img-top"
+                    alt="background.jpg"
+                  />
+                </a>
+                <div class="card-body px-0 pb-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    <h5 class="card-title fw-semibold text-uppercase">
+                      Card title
+                    </h5>
+                  </a>
+                  <div class="row card-text">
+                    <div class="col-5">
+                      <span class="span-date">Tue, 25-04-2023</span>
+                    </div>
+                    <div
+                      class="col-7 d-flex flex-wrap justify-content-end gap-1"
+                    >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-12">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="/src/img/assets/background.jpg"
+                    class="card-img-top"
+                    alt="background.jpg"
+                  />
+                </a>
+                <div class="card-body px-0 pb-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    <h5 class="card-title fw-semibold text-uppercase">
+                      Card title
+                    </h5>
+                  </a>
+                  <div class="row card-text">
+                    <div class="col-5">
+                      <span class="span-date">Tue, 25-04-2023</span>
+                    </div>
+                    <div
+                      class="col-7 d-flex flex-wrap justify-content-end gap-1"
+                    >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-12">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="/src/img/assets/background.jpg"
+                    class="card-img-top"
+                    alt="background.jpg"
+                  />
+                </a>
+                <div class="card-body px-0 pb-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    <h5 class="card-title fw-semibold text-uppercase">
+                      Card title
+                    </h5>
+                  </a>
+                  <div class="row card-text">
+                    <div class="col-5">
+                      <span class="span-date">Tue, 25-04-2023</span>
+                    </div>
+                    <div
+                      class="col-7 d-flex flex-wrap justify-content-end gap-1"
+                    >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-12">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="/src/img/assets/background.jpg"
+                    class="card-img-top"
+                    alt="background.jpg"
+                  />
+                </a>
+                <div class="card-body px-0 pb-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    <h5 class="card-title fw-semibold text-uppercase">
+                      Card title
+                    </h5>
+                  </a>
+                  <div class="row card-text">
+                    <div class="col-5">
+                      <span class="span-date">Tue, 25-04-2023</span>
+                    </div>
+                    <div
+                      class="col-7 d-flex flex-wrap justify-content-end gap-1"
+                    >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                      <span
+                        class="fw-medium badge text-bg-light border border-1 border-dark rounded"
+                        >Genre</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section contents -->
+    </main>
+    <!-- end section main -->
+    <!-- section footer -->
+    <footer class="footer mt-auto border-top border-2 border-dark mx-3">
+      <div
+        class="container-fluid d-flex justify-content-center align-items-center py-4"
+      >
+        <p class="fw-semibold mb-0">
+          © Copyright
+          <span class="span-footer fw-bold">Sounds of Nebula</span> 2023.
+        </p>
+      </div>
+    </footer>
+    <!-- end section footer -->
+    <script
+      src="https://kit.fontawesome.com/0a276c4699.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/src/js/main.js"></script>
+    <script src="/src/vendor/jquery/jquery.min.js"></script>
+    <script src="/src/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
