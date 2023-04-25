@@ -35,13 +35,11 @@
 .img-brand:hover {
   content: url("/src/img/logo/logo2.png");
   color: #010101;
-  zoom: 8%;
 }
 
 .img-brand:active {
   content: url("/src/img/logo/logo2.png");
   color: #010101;
-  zoom: 8%;
 }
 
 .span-footer {
